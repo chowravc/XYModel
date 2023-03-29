@@ -1,0 +1,22 @@
+# Yaml file with experiment details
+
+### Type of the experiment ['place', 'quench']
+expType: 'quench'
+
+### Type of velocity to use ['sqrt', 'yurke']
+velocityType: 'sqrt'
+
+### Dattice dimensions
+dims: [128, 128]
+
+### Number of iterations
+n: 1e5
+
+### Save?
+save: True
+
+### Save image every __ iterations
+saveRate: 10
+
+### Temperature
+T: 1e-3 # (per kB)
